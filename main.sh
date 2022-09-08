@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for ((i=1 ; i<=12000 ; i++))
+for i in `seq 1 12000`
 do
   date +"%T.%6N"
   sleep 0.1
