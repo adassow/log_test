@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Log test",
   "scripts": {
-    "start": "sh main.sh",
-    "wpe-build": "sh main.sh"
+    "start": "echo \"Error: none\" && exit 1",
+    "wpe-build": "./main.sh && exit 1"  
   },
   "dependencies": {
   }
